@@ -1,0 +1,142 @@
+/******
+custom css, based on Allison Horst's work
+*******/
+
+body {
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12;
+}
+
+em {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: slategrey;
+}
+
+.ace-tm {
+    background-color: #ffffff;
+    color: black;
+}
+
+.panel, pre {
+    border-radius: 0;
+    border-color: #e0e0e0;
+    background-color: #ffffff;
+}
+
+.panel-default > .panel-heading {
+    color: #555555;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+.topicsHeader {
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: -webkit-flex;
+
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+}
+
+.topicsFooter {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.topicsFooter .resetButton {
+  padding-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: .85;
+  color: #E57200;
+}
+
+.topicsFooter .resetButton:hover {
+  opacity: 1;
+}
+
+.topicsList .topic {
+    font-family: 'Roboto Slab', serif;
+    line-height: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 2px 80px;
+    background-position: left 100%;
+        background-position-y: 100%;
+    background-image: url(images/topicProgress.png);
+    border-bottom: 1px solid #232D4B;
+    -webkit-transition-property: background-position;
+    transition-property: background-position;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+	
+}
+
+.topicsList .topic:hover {
+  background-color: #fcfcfc;
+}
+
+.topicsList .topic.current {
+    font-family: 'Roboto Slab', serif;
+	color: #ffffff;
+    background-color: #E57200;
+    border: 0px;
+	font-size: 20px;
+}
+
+code {
+    font-family: 'Roboto Mono', monospace;
+    color: gray;
+    background-color: #ffecdd;
+    font-size: 12px;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: blue;
+    text-decoration: none;
+}
+
+.btn-primary, .btn-success, .btn-info {
+    color: #ffffff;
+    background-color: #E57200;
+    background-image: none;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #E57200;
+    background-image: none;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+  color: #232D4B;
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  color: #232D4B;
+  font-family: 'Roboto Slab', serif;
+}
+
+h4 {
+  color: #232D4B;
+  font-family: 'Roboto Slab', serif;
+}
+
+h5 {
+    color: #E57200;
+    background-color: white;
+    display: inline-block;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
