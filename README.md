@@ -1,6 +1,6 @@
 # HSLlearnr
 
-HSLlearnr is a tutorial package for an introduction to using R.
+HSLlearnr is a tutorial package for an introduction to R.
 
 
 Installation
